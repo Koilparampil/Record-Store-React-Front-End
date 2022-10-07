@@ -40,6 +40,7 @@ function Records() {
                     }
                     return r;
                 }))
+                break;
             case 'edit-form':
                 setShowForm(true);
                 setScopedRecord(record);
